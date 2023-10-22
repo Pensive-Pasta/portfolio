@@ -5,6 +5,8 @@ import Projects from "./pages/projects/Projects";
 import ContactForm from "./pages/ContactForm";
 import Footer from "./pages/Footer";
 
+import "@/styles/global.css";
+
 function Home() {
   return (
     <div>
