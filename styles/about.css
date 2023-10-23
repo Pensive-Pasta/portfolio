@@ -1,17 +1,15 @@
 .about {
     display: flex;
     flex-direction: column;
-    margin-top: 300p;
-    padding-top: 100px;
 }
 
 .info {
     display: flex;
     justify-content: space-between;
-    margin: 100px 100px;
+    margin: 0 100px;
 }
 
-p {
+.about p {
     width: 600px;
 }
 

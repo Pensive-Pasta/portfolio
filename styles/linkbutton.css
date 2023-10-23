@@ -1,0 +1,22 @@
+
+.linkButton {
+    width: 320px;
+    background-color: #0E1116;
+    color: #E9E9E9;          
+    border: 1px solid #E9E9E9;
+    border-radius: 8px;       
+    padding: 12px 20px;      
+    cursor: pointer;         
+    transition: 0.3s;        
+    font-size: 18px;         
+    text-align: center; 
+    margin: 10px 0;
+    margin-left: 60px;
+    
+  }
+  
+  .linkButton:hover {
+    background-color: #E9E9E9;
+    color: #0E1116;
+  }
+  

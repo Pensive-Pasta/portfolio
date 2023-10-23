@@ -4,7 +4,7 @@ import Subheader from "../../components/Subheader";
 const projectData = [
   {
     id: 1,
-    title: "Project 1",
+    title: "PROJECT NAME",
     tech: ["JavaScript", "React"],
     description:
       "Tellus malesuada proin egestas in suscipit blandit suscipit ut. Nulla gravida venenatis eget augue tellus. Orci volutpat congue et magnis egestas massa est. Suspendisse ultricies.",
@@ -14,7 +14,7 @@ const projectData = [
   },
   {
     id: 2,
-    title: "Project 2",
+    title: "PROJECT NAME",
     tech: ["HTML", "CSS"],
     description:
       "Tellus malesuada proin egestas in suscipit blandit suscipit ut. Nulla gravida venenatis eget augue tellus. Orci volutpat congue et magnis egestas massa est. Suspendisse ultricies.",
@@ -24,7 +24,7 @@ const projectData = [
   },
   {
     id: 3,
-    title: "Project 3",
+    title: "PROJECT NAME",
     tech: ["JavaScript", "HTML"],
     description:
       "Tellus malesuada proin egestas in suscipit blandit suscipit ut. Nulla gravida venenatis eget augue tellus. Orci volutpat congue et magnis egestas massa est. Suspendisse ultricies.",
@@ -37,7 +37,7 @@ const projectData = [
 const Projects = () => {
   return (
     <div>
-      <Subheader title="Projects" />
+      <Subheader title="PROJECTS" />
       {projectData.map((project) => (
         <Project
           key={project.id}

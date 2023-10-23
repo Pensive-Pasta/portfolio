@@ -6,7 +6,7 @@ nav {
     margin-right: 64px;
 }
 
-a {
+nav a {
     font-weight: 100;
     font-size: 20px;
     margin-left: 32px;
@@ -15,7 +15,7 @@ a {
     cursor: pointer;
 }
 
-a:hover {
+nav a:hover {
         transform: scale(1.05);
 }
 
