@@ -1,0 +1,23 @@
+
+.Subwrapper {
+    display: flex;
+    justify-content: center;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: 700;
+    position: relative;  
+    padding-bottom: 20px;
+}
+
+h2::after {
+    content: '';  
+    position: absolute;  
+    left: 50%;  
+    bottom: 0;  
+    width: 50px;  
+    transform: translateX(-50%);  
+    border-bottom: 1px solid #E9E9E9;  
+    height: 1px;  
+}

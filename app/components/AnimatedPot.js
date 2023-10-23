@@ -1,7 +1,5 @@
-import bowImage from "@/public/assets/Vector.png";
-
 const AnimatedPot = () => {
-  return <img src={bowImage} alt="Animated Pot" />;
+  return <img src="/assets/Bowl.svg" alt="Animated Pot" />;
 };
 
 export default AnimatedPot;
