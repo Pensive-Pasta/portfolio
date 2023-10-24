@@ -1,18 +1,16 @@
 
 .linkButton {
-    width: 320px;
+    width: 100%;
     background-color: #0E1116;
     color: #E9E9E9;          
     border: 1px solid #E9E9E9;
     border-radius: 8px;       
-    padding: 12px 20px;      
+    padding: 12px 0;      
     cursor: pointer;         
     transition: 0.3s;        
     font-size: 18px;         
     text-align: center; 
-    margin: 10px 0;
-    margin-left: 60px;
-    
+    margin: 8px 0;
   }
   
   .linkButton:hover {

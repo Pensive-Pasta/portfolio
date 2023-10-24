@@ -5,7 +5,6 @@ form {
 }
 
 form label {
-   
     font-family: 'Montserrat', Arial, Helvetica, sans-serif;
     font-weight: 400;
     font-size: 18px;
@@ -14,6 +13,7 @@ form label {
 input[type="text"], input[type="email"], textarea {
     display: flex;
     width: 562px;  
+    max-width: 562px;
     padding: 10px;
     margin-bottom: 20px;
     margin-top: 10px;
@@ -24,6 +24,11 @@ input[type="text"], input[type="email"], textarea {
     font-family: 'Montserrat', Arial, Helvetica, sans-serif;
     font-size: 18px;
     font-weight: 100;
+
+    @media (max-width: 768px) {
+       max-width: 340px;
+    }
+
 }
 
 input[type="submit"] {

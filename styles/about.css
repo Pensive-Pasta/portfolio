@@ -1,36 +1,46 @@
 .about {
     display: flex;
     flex-direction: column;
+
+    @media (max-width: 768px) {
+        align-items: center;
+    }
 }
 
 .info {
     display: flex;
     justify-content: center;
-    margin: 0 100px;
-    margin-top: 50px;
 
     @media (max-width: 768px) {
         flex-direction: column;
         align-items: center;
+        width: 100%;
+        margin: 8px;
     }
+
 }
 
 .about p {
     max-width: 500px;
-    margin-right: 50px;
+    margin: 0 40px;
 
     @media (max-width: 768px) {
-        margin-right: 0;
+        max-width: 100%;
     }
 }
 
 .techBadges {
-     margin-left: 50px;
+    margin-right: 40px;
     margin-top: 30px;
-    width: 400px;
+    min-width: 300px;
+    max-width: 500px;
 
     @media (max-width: 768px) {
-        margin-left: 0;
+        margin: 30px 40px;
+        max-width: 500px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
     }
 }
 
@@ -39,8 +49,3 @@
     margin: 10px;
     transition: transform 0.3s ease;
 }
-
-.techBadges img:hover {
-    transform: scale(1.1);
-}
-

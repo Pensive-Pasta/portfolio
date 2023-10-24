@@ -6,6 +6,7 @@ import ContactForm from "./pages/ContactForm";
 import Footer from "./pages/Footer";
 
 import "@/styles/global.css";
+import "@/styles/page.css";
 
 function Home() {
   return (
@@ -15,10 +16,10 @@ function Home() {
       <div id="about">
         <About />
       </div>
-      <div id="projects">
+      <div id="projects" className="sectionContainer">
         <Projects />
       </div>
-      <div id="contact">
+      <div id="contact" className="sectionContainer">
         <ContactForm />
       </div>
       <Footer />

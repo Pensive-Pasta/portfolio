@@ -2,6 +2,7 @@
 
 
 body, h1, h2, h3, p, ul, li {
+
     margin: 0;
     padding: 0;
     list-style: none;
@@ -12,18 +13,6 @@ body {
     font-family: 'Montserrat', Arial, Helvetica, sans-serif;
     background-color: #0E1116; 
     color: #E9E9E9;  
-}
-
-h1 {
-    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
-    font-weight: 800; 
-    font-size: 150px;
-    white-space: nowrap;
-    line-height: 0.8;
-
-    @media (max-width: 768px) {
-        font-size: 60px;
-    }
 }
 
 h2 {
@@ -38,10 +27,4 @@ p, span {
 
 a {
     text-decoration: none;
-}
-
-
-/* Responsive Design */
-@media only screen and (max-width: 768px) {
-    
 }

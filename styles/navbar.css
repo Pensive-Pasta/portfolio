@@ -2,20 +2,61 @@
 nav {
     display: flex;
     justify-content: flex-end;
-    padding: 50px 10px;
-    margin-right: 8%;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    background-color: #0E1116; 
+    width: 100%;
 }
 
 nav a {
     font-weight: 100;
     font-size: 20px;
-    margin-left: 32px;
-    margin-bottom: 50px;
+    margin: 34px 32px;
     transition: transform 0.3s ease;
     cursor: pointer;
 }
 
 nav a:hover {
         transform: scale(1.05);
+}
+
+.burgerMenu {
+    width: 80px;
+    height: 88px;
+    border: none;
+    display: none;
+    background-color: transparent;
+    font-size: 60px;
+    color: #E9E9E9;
+    padding: 10px;
+    cursor: pointer;
+    text-align: center;
+}
+
+
+@media (max-width: 768px) {
+    .navbar a {
+        display: none;
+    }
+
+    .navbarActive {
+        display: flex;
+        position: sticky;
+        top: 0;
+        right: 0;
+        flex-direction: column;
+        background-color: white;
+        align-items: flex-end;
+        justify-content: flex-start;
+        color: black;
+        border-radius: 0 0px 8px 8px;
+        height: 100%;
+    }
+
+    .burgerMenu {
+        display: block;
+    }
 }
 
