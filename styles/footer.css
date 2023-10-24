@@ -1,0 +1,17 @@
+footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    font-size: 10px;
+}
+
+footer a, footer span {
+    text-decoration: none;
+    color: inherit;
+    margin: 0 5px;
+}
+
+footer a {
+    padding-top: 1px;
+}
