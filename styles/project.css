@@ -1,7 +1,12 @@
 .project {
     display: flex;
+    justify-content: center;
     margin-bottom: 100px;
     margin-left: 60px;
+
+    @media (max-width: 768px) {
+        flex-direction: column;
+    }
 }
 
 .project .info {

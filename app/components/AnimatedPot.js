@@ -14,7 +14,7 @@ const AnimatedPot = () => {
         <img src="https://img.shields.io/badge/SQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" alt="SQL Logo" />
         <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git Logo" />
       </div>
-      <img src="/assets/Bowl.svg" alt="Animated Pot" />
+      {/* <img src="/assets/Bowl.svg" alt="Animated Pot" /> */}
    </div>
   );
 };

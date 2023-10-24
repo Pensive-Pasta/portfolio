@@ -2,12 +2,7 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 300px 0;
-}
-
-h1 {
-    white-space: nowrap;
-    line-height: 0.8;
+    margin: 200px 0;
 }
 
 header h3 {
