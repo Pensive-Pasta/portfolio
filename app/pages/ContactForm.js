@@ -2,12 +2,14 @@
 import { Formik, Field, Form } from "formik";
 import Subheader from "../components/Subheader";
 
+import "@/styles/contactForm.css";
+
 const ContactForm = () => {
   return (
     <div>
-      <Subheader title="Contact" />
+      <Subheader title="CONTACT" />
       <Formik
-        // incorrect use of initial values here
+
         initialValues={{
           name: "",
           email: "",
@@ -23,15 +25,15 @@ const ContactForm = () => {
         {({ isSubmitting }) => (
           <Form>
             <label>
-              Name:
+              Name
               <Field type="text" name="name" placeholder="Enter Name" />
             </label>
             <label>
-              Email:
+              Email
               <Field type="email" name="email" placeholder="Enter Email" />
             </label>
             <label>
-              Message:
+              Message
               <Field
                 as="textarea"
                 name="message"

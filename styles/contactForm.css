@@ -1,0 +1,74 @@
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form label {
+   
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+input[type="text"], input[type="email"], textarea {
+    display: flex;
+    width: 562px;  
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    border-radius: 8px;
+    border: none; 
+    background-color: #25282C; 
+    color: #E9E9E9;  
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 100;
+}
+
+input[type="submit"] {
+    background-color: #25282C;
+    color: #E9E9E9;  
+    border: none;  
+    padding: 10px 20px;  
+    cursor: pointer;  
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #25282C;  
+}
+
+textarea {
+    height: 184px;
+}
+
+
+input[type="text"], input[type="email"] {
+    height: 50px;
+}
+
+
+form Button {
+    width: 320px;
+    background-color: #0E1116;
+    color: #E9E9E9;          
+    border: 1px solid #E9E9E9;
+    border-radius: 8px;       
+    padding: 12px 20px;      
+    cursor: pointer;         
+    transition: 0.3s;        
+    font-size: 18px;         
+    text-align: center; 
+    margin: 10px 0;
+    
+  }
+  
+ form Button:hover {
+    background-color: #E9E9E9;
+    color: #0E1116;
+  }
+
+  ::placeholder {
+    color: #515356;
+  }
