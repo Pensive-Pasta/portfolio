@@ -14,3 +14,19 @@
     width: 600px;
 }
 
+.techBadges {
+    margin-left: 10px;
+    margin-bottom: 20px;
+    width: 400px;
+}
+
+.techBadges img {
+    border-radius: 8px;
+    margin: 10px;
+    transition: transform 0.3s ease;
+}
+
+.techBadges img:hover {
+    transform: scale(1.1);
+}
+

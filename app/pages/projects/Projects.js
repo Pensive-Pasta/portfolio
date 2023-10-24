@@ -5,10 +5,10 @@ const projectData = [
   {
     id: 1,
     title: "PROJECT NAME",
-    tech: ["JavaScript", "React"],
+    tech: ["JavaScript", "React", "HTML", "CSS"],
     description:
       "Tellus malesuada proin egestas in suscipit blandit suscipit ut. Nulla gravida venenatis eget augue tellus. Orci volutpat congue et magnis egestas massa est. Suspendisse ultricies.",
-    githubUrl: "https://github.com/user/project1",
+    githubUrl: "https://github.com/Pensive-Pasta",
     liveSiteUrl: "https://project1.example.com",
     figmaUrl: "https://www.figma.com/file/abc/project1",
   },
@@ -18,7 +18,7 @@ const projectData = [
     tech: ["HTML", "CSS"],
     description:
       "Tellus malesuada proin egestas in suscipit blandit suscipit ut. Nulla gravida venenatis eget augue tellus. Orci volutpat congue et magnis egestas massa est. Suspendisse ultricies.",
-    githubUrl: "https://github.com/user/project2",
+    githubUrl: "https://github.com/Pensive-Pasta",
     liveSiteUrl: "https://project2.example.com",
     figmaUrl: "https://www.figma.com/file/abc/project2",
   },
@@ -28,7 +28,7 @@ const projectData = [
     tech: ["JavaScript", "HTML"],
     description:
       "Tellus malesuada proin egestas in suscipit blandit suscipit ut. Nulla gravida venenatis eget augue tellus. Orci volutpat congue et magnis egestas massa est. Suspendisse ultricies.",
-    githubUrl: "https://github.com/user/project3",
+    githubUrl: "https://github.com/Pensive-Pasta",
     liveSiteUrl: "https://project3.example.com",
     figmaUrl: "https://www.figma.com/file/abc/project3",
   },

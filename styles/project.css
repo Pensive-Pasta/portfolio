@@ -27,3 +27,14 @@
     margin-bottom: 16px;
     margin-top: 16px;
 }
+
+.techImg img {
+    margin-right: 10px;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.techImg img:hover {
+    transform: scale(1.05); 
+}
+
