@@ -1,40 +1,25 @@
+"use client";
+import { useState, useEffect } from "react";
 import Project from "./Project";
 import Subheader from "../../components/Subheader";
 
-const projectData = [
-  {
-    id: 1,
-    title: "PROJECT NAME",
-    tech: ["JavaScript", "React", "HTML", "CSS"],
-    description:
-      "Tellus malesuada proin egestas in suscipit blandit suscipit ut. Nulla gravida venenatis eget augue tellus. Orci volutpat congue et magnis egestas massa est. Suspendisse ultricies.",
-    githubUrl: "https://github.com/Pensive-Pasta",
-    liveSiteUrl: "https://project1.example.com",
-    figmaUrl: "https://www.figma.com/file/abc/project1",
-  },
-  {
-    id: 2,
-    title: "PROJECT NAME",
-    tech: ["HTML", "CSS"],
-    description:
-      "Tellus malesuada proin egestas in suscipit blandit suscipit ut. Nulla gravida venenatis eget augue tellus. Orci volutpat congue et magnis egestas massa est. Suspendisse ultricies.",
-    githubUrl: "https://github.com/Pensive-Pasta",
-    liveSiteUrl: "https://project2.example.com",
-    figmaUrl: "https://www.figma.com/file/abc/project2",
-  },
-  {
-    id: 3,
-    title: "PROJECT NAME",
-    tech: ["JavaScript", "HTML"],
-    description:
-      "Tellus malesuada proin egestas in suscipit blandit suscipit ut. Nulla gravida venenatis eget augue tellus. Orci volutpat congue et magnis egestas massa est. Suspendisse ultricies.",
-    githubUrl: "https://github.com/Pensive-Pasta",
-    liveSiteUrl: "https://project3.example.com",
-    figmaUrl: "https://www.figma.com/file/abc/project3",
-  },
-];
-
 const Projects = () => {
+  const [projectData, setProjectData] = useState([]);
+
+  useEffect(() => {
+    fetch("http://localhost:3001/projects")
+      .then((response) => {
+        if (!response.ok) {
+          throw new Error("Network response was not ok " + response.statusText);
+        }
+        return response.json();
+      })
+      .then((data) => setProjectData(data))
+      .catch((error) =>
+        console.error("There was a problem with your fetch operation:", error)
+      );
+  }, []);
+
   return (
     <div>
       <Subheader title="PROJECTS" />

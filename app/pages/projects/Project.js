@@ -1,7 +1,4 @@
-// import ReactLogo from "@/public/assets/react.png";
-// import JavaScriptLogo from "@/public/assets/javascript.png";
-// import HTMLLogo from "@/public/assets/html.png";
-// import CSSLogo from "@/public/assets/css.png";
+import React from 'react';
 import LinkButton from "../../components/LinkButton";
 
 import "@/styles/project.css";
@@ -47,7 +44,7 @@ const Project = ({
       <div className="projectInfo">
         <h3>{title}</h3>
         <div className="techImg">
-          {tech.map((techItem) => techLogoMapping[techItem])}
+        {tech.map((techItem) => React.cloneElement(techLogoMapping[techItem], { key: techItem }))}
         </div>
         <span>{description}</span>
         <div className="links">
