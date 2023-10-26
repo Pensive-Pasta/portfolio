@@ -1,7 +1,7 @@
 
 export async function sendContactForm(data) {
     try {
-      const response = await fetch('http://localhost:3000/contact', {
+      const response = await fetch('http://localhost:3001/contact', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
