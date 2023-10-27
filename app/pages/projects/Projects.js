@@ -7,7 +7,7 @@ const Projects = () => {
   const [projectData, setProjectData] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:3001/projects")
+    fetch("https://portfolio-backend-c95e.onrender.com/projects")
       .then((response) => {
         if (!response.ok) {
           throw new Error("Network response was not ok " + response.statusText);
