@@ -28,3 +28,13 @@ p, span {
 a {
     text-decoration: none;
 }
+
+a:hover {
+   color: #FFE82C;
+}
+
+.loading {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+}

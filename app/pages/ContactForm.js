@@ -10,27 +10,24 @@ const ContactForm = () => {
     <div>
       <Subheader title="CONTACT" />
       <Formik
-  initialValues={{
-    name: "",
-    email: "",
-    message: "",
-  }}
-  onSubmit={async (values, { resetForm, setSubmitting }) => {
-    try {
-      
-      const response = await sendContactForm(values);
-      console.log('Contact form sent successfully:', response);
+        initialValues={{
+          name: "",
+          email: "",
+          message: "",
+        }}
+        onSubmit={async (values, { resetForm, setSubmitting }) => {
+          try {
+            const response = await sendContactForm(values);
+            console.log("Contact form sent successfully:", response);
 
-      
-      resetForm();
-    } catch (error) {
-      console.error('Error sending contact form:', error);
-    } finally {
-     
-      setSubmitting(false);
-    }
-  }}
->
+            resetForm();
+          } catch (error) {
+            console.error("Error sending contact form:", error);
+          } finally {
+            setSubmitting(false);
+          }
+        }}
+      >
         {({ isSubmitting }) => (
           <Form>
             <label>

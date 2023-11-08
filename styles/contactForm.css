@@ -66,12 +66,14 @@ form Button {
     font-size: 18px;         
     text-align: center; 
     margin: 10px 0;
-    
+    font-weight: 400;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
   }
   
  form Button:hover {
-    background-color: #E9E9E9;
+    background-color: #FFE82C;
     color: #0E1116;
+    border: 1px solid #FFE82C;
   }
 
   ::placeholder {

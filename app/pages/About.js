@@ -1,5 +1,5 @@
 import Subheader from "../components/Subheader";
-import AnimatedPot from "../components/AnimatedPot";
+import Skills from "../components/Skills";
 
 import "@/styles/about.css";
 
@@ -9,16 +9,17 @@ const About = () => {
       <Subheader title="ABOUT" />
       <div className="info">
         <p>
-          Lorem ipsum dolor sit amet consectetur. Sagittis eget hendrerit urna
-          mus massa ultrices. Pellentesque molestie vel mauris mauris rhoncus
-          purus. Tellus malesuada proin egestas in suscipit blandit suscipit ut.
-          Nulla gravida venenatis eget augue tellus. Orci volutpat congue et
-          magnis egestas massa est. Suspendisse ultricies.<br></br> Tellus
-          malesuada proin egestas in suscipit blandit suscipit ut. Nulla gravida
-          venenatis eget augue tellus. Orci volutpat congue et magnis egestas
-          massa est. Suspendisse ultricies.
+          <b className="info-highlight">Hello, I'm Ricky 👋 </b>
+          I'm an ambitious, outgoing and enthusiastic developer with a
+          background in design, having worked as an art director and freelance
+          illustrator and designer, where I found a passion in software
+          engineering. I love to learn, and have taught myself full-stack
+          development through the codecademy full-stack engineer career path and
+          a series of personal projects creating full-stack apps. You can see
+          some project highlights below, and fill out the email form if you'd
+          like to get in touch.
         </p>
-        <AnimatedPot />
+        <Skills />
       </div>
     </div>
   );

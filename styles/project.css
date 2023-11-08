@@ -2,6 +2,7 @@
     display: flex;
     justify-content: center;
     margin-bottom: 100px;
+    align-items: center;
 
     @media (max-width: 768px) {
         flex-direction: column;
@@ -32,6 +33,9 @@
 .projectImage {
     max-width: 480px;
     margin: 0 40px;
+    height: 100%;
+    border: 1px solid #FFE82C;
+    border-radius: 4px;
 
     @media (max-width: 768px) {
         width: 100%;
@@ -74,19 +78,9 @@ span {
     font-weight: 700;
     margin-bottom: 16px;
     margin-top: 16px;
-
-    @media (max-width: 768px) {
-        
-    }
 }
 
 .techImg img {
     margin-right: 10px;
     border-radius: 8px;
-    transition: transform 0.3s ease;
 }
-
-.techImg img:hover {
-    transform: scale(1.05); 
-}
-

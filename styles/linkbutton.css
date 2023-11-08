@@ -5,16 +5,18 @@
     color: #E9E9E9;          
     border: 1px solid #E9E9E9;
     border-radius: 8px;       
-    padding: 12px 0;      
+    padding: 12px 20px;      
     cursor: pointer;         
     transition: 0.3s;        
     font-size: 18px;         
     text-align: center; 
     margin: 8px 0;
+    font-weight: 400;
   }
   
   .linkButton:hover {
-    background-color: #E9E9E9;
+    background-color: #FFE82C;
     color: #0E1116;
+    border: 1px solid #FFE82C;
   }
   

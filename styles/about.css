@@ -20,6 +20,10 @@
 
 }
 
+.info-highlight {
+    font-size: 18px;
+}
+
 .about p {
     max-width: 500px;
     margin: 0 40px;
