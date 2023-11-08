@@ -1,36 +1,40 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Full Stack Portfolio README
 
-## Getting Started
+## Overview
 
-First, run the development server:
+Welcome to my full-stack portfolio app. This project showcases some of my favourite projects, and features a RESTful API, an email submission form for direct contact, and a fully responsive layout ensuring a seamless experience across all devices.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **RESTful API Backend**: Manages portfolio data and email submissions efficiently. [Backend Repository](https://github.com/Pensive-Pasta/portfolio-backend)
+- **Responsive Frontend**: (this repo) Built with React and Next.js (you are here).
+- **Email Submission Form**: Utilizes Formik for form handling and AWS Simple Email Service (SES) for email delivery.
+- **AWS Amplify**: Hosts the live site with continuous deployment. [Live Site](https://main.d3fyhkuehrb5u9.amplifyapp.com/)
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Design
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+The design follows modern UI/UX principles, with a Figma design document available for a glimpse into the creative process: [Figma Design](https://www.figma.com/file/76LBpCAiY5RuDuWzC0vHPm/Website?type=design&mode=design&t=gmexnuA7ACxgeJl0-0).
 
-## Learn More
+## Technologies used
 
-To learn more about Next.js, take a look at the following resources:
+- **JavaScript**
+- **React**
+- **Next.js**
+- **Formik**
+- **AWS SES**: For sending emails.
+- **AWS Amplify**: For full stack app deployment and hosting.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+(- **Postman**: For backend API testing.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- **GitHub**: For version control and collaboration.)
 
-## Deploy on Vercel
+## Get Started
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+To get started with this project, clone the repositories and follow the setup instructions in each:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+1. Clone the frontend repository: `git clone https://github.com/Pensive-Pasta/portfolio`
+2. Clone the backend repository: `git clone https://github.com/Pensive-Pasta/portfolio-backend`
+3. Start up the back end repository on `localhost:3001`: see instructions within back end repo
+4. Start up the front end repository on `localhost:3000` by running `npm run dev`.
+
+For any direct inquiries, please use the email submission form on the [live site](https://main.d3fyhkuehrb5u9.amplifyapp.com/).
