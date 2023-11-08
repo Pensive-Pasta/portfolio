@@ -8,7 +8,7 @@ const Projects = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch("https://localhost:3001/projects")
+    fetch("https://portfolio-backend-c95e.onrender.com/projects")
       .then((response) => {
         console.log({ response });
         if (!response.ok) {
