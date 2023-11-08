@@ -28,7 +28,11 @@ const techLogoMapping = {
 
 const TechButtons = ({ tech }) =>
   tech.map((techItem) => (
-    <img src={techLogoMapping[techItem]} alt={`${techItem} icon`} />
+    <img
+      src={techLogoMapping[techItem]}
+      alt={`${techItem} icon`}
+      key={techItem}
+    />
   ));
 
 export default TechButtons;
