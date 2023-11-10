@@ -40,7 +40,7 @@ const Projects = () => {
             description={project.description}
             frontEnd={project.frontEnd}
             backEnd={project.backEnd || null}
-            liveSiteUrl={project.liveSiteUrl}
+            liveSiteUrl={project.liveSiteUrl || null}
             figmaUrl={project.figmaUrl}
             imageUrl={project.imageUrl}
           />
