@@ -9,9 +9,9 @@ const About = () => {
       <Subheader title="ABOUT" />
       <div className="info">
         <p>
-          <b className="info-highlight">Hey, I'm Ricky 👋 </b>I'm an ambitious,
-          outgoing and enthusiastic developer with a background in design,
-          having worked as an art director and freelance illustrator and
+          <b className="info-highlight">Hey, I&apos;m Ricky 👋 </b>I&apos;m an
+          ambitious, outgoing and enthusiastic developer with a background in
+          design, having worked as an art director and freelance illustrator and
           designer, where I found a passion in software engineering. I love to
           learn, recently completeing a certified full-stack engineer career
           path and a series of personal projects creating full-stack apps. You
