@@ -9,14 +9,14 @@ const About = () => {
       <Subheader title="ABOUT" />
       <div className="info">
         <p>
-          <b className="info-highlight">Hello, I am Ricky 👋 </b>I am an
-          ambitious, outgoing and enthusiastic developer with a background in
-          design, having worked as an art director and freelance illustrator and
+          <b className="info-highlight">Hey, I'm Ricky 👋 </b>I'm an ambitious,
+          outgoing and enthusiastic developer with a background in design,
+          having worked as an art director and freelance illustrator and
           designer, where I found a passion in software engineering. I love to
-          learn, and have taught myself full-stack development through the
-          codecademy full-stack engineer career path and a series of personal
-          projects creating full-stack apps. You can see some project highlights
-          below, and fill out the email form if you would like to get in touch.
+          learn, recently completeing a certified full-stack engineer career
+          path and a series of personal projects creating full-stack apps. You
+          can see some project highlights below, and fill out the email form if
+          you would like to get in touch.
         </p>
         <Skills />
       </div>
