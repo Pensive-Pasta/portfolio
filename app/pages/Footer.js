@@ -12,8 +12,8 @@ const Footer = () => {
         Github
       </a>
       |
-      <a href="mailto:PEnsivePasta@gmail.com?subject=I want to hire you!">
-        PensivePasta@gmail.com
+      <a href="mailto:Rickybutcherdeveloper@gmail.com?subject=I want to hire you!">
+        Rickybutcherdeveloper@gmail.com
       </a>
     </footer>
   );

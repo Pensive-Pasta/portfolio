@@ -30,7 +30,9 @@ const Projects = () => {
     <div>
       <Subheader title="PROJECTS" />
       {loading ? (
-        <p className="loading">Loading...</p>
+        <p className="loading">
+          Loading... Please allow a minute for the backend to wake up. 😴
+        </p>
       ) : (
         projectData.map((project) => (
           <Project
