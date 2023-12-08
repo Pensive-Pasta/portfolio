@@ -14,6 +14,10 @@ const Skills = () => {
           "SQL",
           "Github",
           "AWS",
+          "Express",
+          "Postman",
+          "TailwindCSS",
+          "MongoDB",
         ]}
       />
     </div>
