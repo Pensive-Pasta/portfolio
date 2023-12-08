@@ -27,10 +27,10 @@ const Project = ({
         </div>
         <span>{description}</span>
         <div className="links">
+          {liveSiteUrl && <LinkButton label="Live Site" url={liveSiteUrl} />}
           <LinkButton label="Front End" url={frontEnd} />
           {backEnd && <LinkButton label="Back End" url={backEnd} />}
-          {liveSiteUrl && <LinkButton label="Live Site" url={liveSiteUrl} />}
-          <LinkButton label="Figma Design" url={figmaUrl} />
+          {/* <LinkButton label="Figma Design" url={figmaUrl} /> */}
         </div>
       </div>
     </div>
