@@ -24,6 +24,10 @@ const techLogoMapping = {
   Formik:
     "https://img.shields.io/badge/Formik-000000.svg?style=for-the-badge&logoColor=white",
   AWS: "https://img.shields.io/badge/AWS-232F3E.svg?style=for-the-badge&logo=amazonaws&logoColor=white",
+  TailwindCSS: "https://img.shields.io/badge/TailwindCSS-%2306B6D4.svg?style=for-the-badge&logo=tailwind-css&logoColor=white",
+  MongoDB: "https://img.shields.io/badge/MongoDB-%2347A248.svg?style=for-the-badge&logo=mongodb&logoColor=white",
+
+
 };
 
 const TechButtons = ({ tech }) =>
