@@ -47,7 +47,7 @@ const ContactForm = () => {
               />
             </label>
             <button type="submit" disabled={isSubmitting}>
-              Submit
+              {isSubmitting ? "Submitting..." : "Submit"}
             </button>
           </Form>
         )}
