@@ -2,10 +2,13 @@
 import { useState, useEffect } from "react";
 import Project from "./Project";
 import Subheader from "../../components/Subheader";
+import Loading from "@/app/components/loading";
+import LoadingError from "@/app/components/loading-error";
 
 const Projects = () => {
   const [projectData, setProjectData] = useState([]);
   const [loading, setLoading] = useState(true);
+  const [loadError, setLoadError] = useState(null);
 
   useEffect(() => {
     fetch("https://portfolio-backend-c95e.onrender.com/projects")
@@ -22,6 +25,7 @@ const Projects = () => {
       })
       .catch((error) => {
         setLoading(false);
+        setLoadError(error.message);
         console.error("There was a problem with your fetch operation:", error);
       });
   }, []);
@@ -30,9 +34,9 @@ const Projects = () => {
     <div>
       <Subheader title="PROJECTS" />
       {loading ? (
-        <p className="loading">
-          Loading... Please allow a minute for the backend to wake up. 😴
-        </p>
+        <Loading />
+      ) : loadError ? (
+       <LoadingError loadError={loadError} />
       ) : (
         projectData.map((project) => (
           <Project
