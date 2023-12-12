@@ -9,9 +9,10 @@ const Projects = () => {
   const [projectData, setProjectData] = useState([]);
   const [loading, setLoading] = useState(true);
   const [loadError, setLoadError] = useState(null);
+  const BASE_URL = process.env.NEXT_PUBLIC_API_URL;
 
   useEffect(() => {
-    fetch("https://portfolio-backend-c95e.onrender.com/projects")
+    fetch(`${BASE_URL}/projects`)
       .then((response) => {
         console.log({ response });
         if (!response.ok) {

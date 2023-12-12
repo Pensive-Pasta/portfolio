@@ -1,7 +1,9 @@
+const BASE_URL = process.env.NEXT_PUBLIC_API_URL;
+
 export async function sendContactForm(data) {
   try {
     const response = await fetch(
-      "https://portfolio-backend-c95e.onrender.com/contact",
+      `${BASE_URL}/contact`,
       {
         method: "POST",
         headers: {
